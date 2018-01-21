@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding:1em;
+    margin:0;
+}
+img{
+    max-width:100%;
+}
+.site-header-centerpiece{
+    display:none;
+}
+@media screen and (min-width:768px){
+    .site.site-header-home-link{
+      display: none;
+    }
+    .site-header-centerpiece{
+      display:block;
+    }
+}
+@media screen and (min-width:1024px){
+    .top-stories{
+        display:flex
+
+    }
+    .top-stories .group{
+        width:40%;
+        padding: 0 1em;
+    }
+    .top-stories.group-2,
+    .top-stories.group-3{
+       width:30%;
+    }
+    
+}
